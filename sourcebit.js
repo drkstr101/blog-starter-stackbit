@@ -8,7 +8,10 @@ module.exports = {
       module: require("sourcebit-source-filesystem"),
       options: {
         watch: isDev,
-        sources: [{ name: "content", path: path.join(__dirname, "content") }],
+        sources: [
+          { name: "data", path: path.join(__dirname, "content/data") },
+          { name: "pages", path: path.join(__dirname, "content/pages") },
+        ],
       },
     },
     {

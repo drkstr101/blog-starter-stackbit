@@ -8,10 +8,14 @@ pagesDir: content/pages
 assets:
   referenceType: static
   staticDir: public
-  uploadDir: images
+  uploadDir: assets
   publicPath: /
 contentModels:
   Page:
     isPage: true
     urlPath: "/{slug}"
     newFilePath: "{slug}.md"
+  # Post:
+  #   isPage: true
+  #   urlPath: "/posts/{slug}"
+  #   newFilePath: "posts/{slug}.md"

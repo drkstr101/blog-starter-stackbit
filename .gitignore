@@ -40,3 +40,13 @@ yarn-error.log*
 # sourcebit
 .sourcebit-cache.json
 .sourcebit-nextjs-cache.json
+
+# Yarn
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
